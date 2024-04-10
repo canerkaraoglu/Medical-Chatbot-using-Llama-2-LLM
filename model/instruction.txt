@@ -1,6 +1,6 @@
 ## You need to download this model from below url:
 
-llama-2-7-b-chat-ggmlv3.q4_0.bin
+llama-2-7-b-chat.ggmlv3.q4_0.bin
 
 ## URL
 

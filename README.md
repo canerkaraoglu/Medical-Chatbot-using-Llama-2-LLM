@@ -12,3 +12,9 @@ conda create -n medchatbot python=3.8 -y
 ```
 conda activate medchatbot
 ```
+
+### Installing the requirements
+
+```
+pip install -r requirements.txt
+```

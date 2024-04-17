@@ -1,20 +1,43 @@
 # Medical-Chatbot-using-Llama-2-LLM
 
-## Steps to run the project
+## Running steps:
 
-### Creating the virtual environment
-
-Execute below terminal commands to create and activate an Anaconda virtual environment:
-```
-conda create -n medchatbot python=3.8 -y
-```
+Clone the repository
 
 ```
-conda activate medchatbot
+Project repo: https://github.com/theVirus94/Medical-Chatbot-using-Llama-2-LLM
 ```
 
-### Installing the requirements
+### Step 01 - Create a conda environment after opening the repository
+
+```
+conda create -n mchatbot python=3.8 -y
+```
+
+```
+conda activate mchatbot
+```
+
+### Step 02 - Install the requirements using `requirements.txt`
 
 ```
 pip install -r requirements.txt
+```
+
+### Create a `.env` file in the root directory and add your Pinecone credentials:
+
+```
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+## Download the Llama 2 Model:
+```
+llama-2-7b-chat.ggmlv3.q4_0.bin
+```
+
+## From the following link:
+
+```
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ```

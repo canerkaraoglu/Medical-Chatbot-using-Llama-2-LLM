@@ -5,7 +5,7 @@
 Clone the repository
 
 ```
-Project repo: https://github.com/theVirus94/Medical-Chatbot-using-Llama-2-LLM
+Project repo: https://github.com/canerkaraoglu/Medical-Chatbot-using-Llama-2-LLM
 ```
 
 ### Step 01 - Create a conda environment after opening the repository
